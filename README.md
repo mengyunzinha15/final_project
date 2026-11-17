@@ -1,28 +1,56 @@
-# final_project
 # Language Bridge 🌎
 
 **Breaking language barriers, one word at a time.**
 
 ## 📖 About the Project
 
-Language Bridge is a bilingual learning platform designed to help users explore and learn new vocabulary across different languages.
+Language Bridge is an interactive language-learning platform designed to help users develop vocabulary and communication skills through practical exercises and real-life situations.
 
-The goal of this project is to make language learning more accessible, interactive, and engaging through a simple and user-friendly website.
+The goal is to make language learning more accessible, engaging, and useful in everyday life.
 
-## 🎯 Project Objectives
+## 🎯 Main Features
 
-- Create a platform that supports bilingual learning.
-- Help users expand their vocabulary.
-- Make learning new languages easier and more accessible.
-- Develop a website using Python and web development technologies.
+The website is divided into three main sections:
+
+### 1. Learn a Language 📚
+
+Users can develop their vocabulary and language skills through:
+
+- **Flashcards:** Learn new words and their meanings.
+- **Pronunciation Guides:** Practice how words are pronounced.
+- **Vocabulary Categories:** Explore words organized by topic.
+- **Translation Exercises:** Practice translating between languages.
+
+### 2. Real-Life Situations 🌍
+
+Users practice communicating in everyday situations, applying their vocabulary to practical scenarios.
+
+Examples include:
+- At the hospital
+- At the supermarket
+- On public transportation
+- At school
+- Asking for directions
+
+Users can also complete simulated conversations with multiple-choice responses, helping them practice choosing appropriate expressions in different contexts.
+
+### 3. My Progress 🏆
+
+Users can monitor their language-learning development through a personal progress dashboard.
+
+Features include:
+- Tracking completed lessons.
+- Viewing quiz scores.
+- Reviewing difficult vocabulary.
+- Earning points for completing activities.
 
 ## 🛠️ Technologies Used
 
 - **Python:** Main programming language.
-- **Flask:** Web framework used to build the application.
+- **Flask:** Web framework used to develop the application.
 - **HTML:** Structures the website.
-- **CSS:** Styles and designs the website.
-- **GitHub:** Stores and tracks project development.
+- **CSS:** Styles and designs the interface.
+- **GitHub:** Version control and project management.
 
 ## 📁 Project Structure
 
@@ -30,21 +58,19 @@ The goal of this project is to make language learning more accessible, interacti
 final_project/
 │
 ├── app.py
-├── templates/
-│   └── index.html
+├── data/
+│   └── vocabulary.py
 │
 ├── static/
 │   └── style.css
 │
-├── data/
-│   └── vocabulary.py
+├── templates/
+│   └── index.html
 │
 └── README.md
 ```
 
 ## ⚙️ Installation and Setup
-
-Follow these steps to run the project on your computer.
 
 ### 1. Install Python
 
@@ -72,13 +98,13 @@ python app.py
 
 ### 5. Open the Website
 
-Once the application is running, open your browser and visit:
+Open your browser and visit:
 
 http://127.0.0.1:5000
 
-## 🚀 Current Development
+## 🚧 Project Development
 
-Language Bridge is currently under development. New features and improvements will be added as the project progresses.
+Language Bridge is currently under development. The features described above represent the planned design and functionality of the platform. Additional features and improvements will be implemented as development progresses.
 
 ## 👩‍💻 Author
 
