@@ -124,24 +124,36 @@
 
 
         <!-- Language Selection -->
-        <section class="language-section">
+        
+<section class="language-section" id="language">
 
-            <h2>What would you like to learn?</h2>
+    <h2>What would you like to learn?</h2>
 
-            <p>Choose a language and start exploring.</p>
+    <p>Choose a language and start exploring.</p>
 
-            <select id="language-select">
-                <option value="">Select a language</option>
-                <option value="english">English</option>
-                <option value="portuguese">Portuguese</option>
-                <option value="french">French</option>
-                <option value="spanish">Spanish</option>
-                <option value="mandarin">Mandarin Chinese</option>
-                <option value="japanese">Japanese</option>
-                <option value="german">German</option>
-            </select>
+    <form action="/learn" method="POST">
 
-        </section>
+        <select name="language" required>
+
+            <option value="">Select a language</option>
+            <option value="english">English</option>
+            <option value="portuguese">Portuguese</option>
+            <option value="french">French</option>
+            <option value="spanish">Spanish</option>
+            <option value="mandarin">Mandarin Chinese</option>
+            <option value="japanese">Japanese</option>
+            <option value="german">German</option>
+
+        </select>
+
+        <button type="submit" class="primary-button">
+            Start Learning
+        </button>
+
+    </form>
+
+</section>
+
 
     </main>
 
