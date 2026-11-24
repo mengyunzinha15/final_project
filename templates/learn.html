@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Start Learning | Bloomly</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">Bloomly 🌱</h2>
+
+            <a href="/" class="back-link">Back to Home</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="learning-hero">
+
+            <p class="subtitle">YOUR LEARNING JOURNEY</p>
+
+            <h1>Welcome to {{ language }}!</h1>
+
+            <p>
+                Choose an activity and start developing
+                your language skills.
+            </p>
+
+        </section>
+
+        <section class="learning-options">
+
+            <article class="feature-card">
+                <h3>📚 Vocabulary</h3>
+                <p>Discover new words and their meanings.</p>
+            </article>
+
+            <article class="feature-card">
+                <h3>🗣️ Pronunciation</h3>
+                <p>Practice how words are pronounced.</p>
+            </article>
+
+            <article class="feature-card">
+                <h3>✏️ Exercises</h3>
+                <p>Test your knowledge with interactive activities.</p>
+            </article>
+
+            <article class="feature-card">
+                <h3>💬 Conversations</h3>
+                <p>Practice communicating in everyday situations.</p>
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Bloomly © 2026 | Learn without boundaries.</p>
+    </footer>
+
+</body>
+</html>

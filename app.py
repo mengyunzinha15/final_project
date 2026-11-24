@@ -7,11 +7,28 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
+
 @app.route("/learn", methods=["POST"])
 def learn():
     language = request.form.get("language")
 
-    return f"You selected: {language.title()}"
+    language_names = {
+        "english": "English",
+        "portuguese": "Portuguese",
+        "french": "French",
+        "spanish": "Spanish",
+        "mandarin": "Mandarin Chinese",
+        "japanese": "Japanese",
+        "german": "German"
+    }
+
+    selected_language = language_names.get(language, "Language")
+
+    return render_template(
+        "learn.html",
+        language=selected_language
+    )
+
 
 if __name__ == "__main__":
     app.run(debug=True)

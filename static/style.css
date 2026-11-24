@@ -10,7 +10,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #ffffff;
-    color: #24332f;
+    color: #344438;
     line-height: 1.6;
 }
 
@@ -28,7 +28,7 @@ body {
 
 .logo {
     font-size: 24px;
-    color: #176b55;
+    color: #527B5A;
 }
 
 .nav-links {
@@ -43,7 +43,7 @@ body {
 }
 
 .nav-links a:hover {
-    color: #176b55;
+    color: #527B5A;
 }
 
 
@@ -58,13 +58,13 @@ button {
 }
 
 .start-button {
-    background-color: #e7f3ed;
-    color: #176b55;
+    background-color: #E8F0E3;
+    color: #527B5A;
     font-weight: bold;
 }
 
 .primary-button {
-    background-color: #176b55;
+    background-color: #527B5A;
     color: white;
     margin-top: 20px;
 }
@@ -74,7 +74,7 @@ button {
 
 .hero {
     padding: 110px 12%;
-    background-color: #f5faf7;
+    background-color: #F3F7EF;
     text-align: center;
 }
 
@@ -84,7 +84,7 @@ button {
 }
 
 .subtitle {
-    color: #278366;
+    color: #789B76;
     font-size: 12px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -98,7 +98,7 @@ button {
 }
 
 .description {
-    color: #68766f;
+    color: #718074;
     font-size: 17px;
 }
 
@@ -139,7 +139,7 @@ button {
 }
 
 .feature-number {
-    color: #278366;
+    color: #789B76;
     font-weight: bold;
     font-size: 14px;
 }
@@ -150,13 +150,13 @@ button {
 }
 
 .feature-card p {
-    color: #68766f;
+    color: #718074;
     font-size: 14px;
     margin-bottom: 20px;
 }
 
 .feature-card a {
-    color: #176b55;
+    color: #527B5A;
     text-decoration: none;
     font-weight: bold;
     font-size: 14px;
@@ -166,7 +166,7 @@ button {
 /* LANGUAGE SELECTION */
 
 .language-section {
-    background-color: #f5faf7;
+    background-color: #F3F7EF;
     text-align: center;
     padding: 65px 20px;
 }
@@ -177,7 +177,7 @@ button {
 }
 
 .language-section p {
-    color: #68766f;
+    color: #718074;
     margin-bottom: 25px;
 }
 
@@ -229,4 +229,43 @@ footer {
         grid-template-columns: 1fr;
     }
 
+}
+
+
+/* LEARNING PAGE */
+
+.learning-hero {
+    text-align: center;
+    padding: 80px 20px 50px;
+    background-color: #F3F7EF;
+}
+
+.learning-hero h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.learning-hero p {
+    color: #718074;
+}
+
+.learning-options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 25px;
+}
+
+.back-link {
+    text-decoration: none;
+    color: #527B5A;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .learning-options {
+        grid-template-columns: 1fr;
+    }
 }

@@ -1,12 +1,12 @@
-# Language Bridge 🌎
+Bloomly 🌱
 
-**Breaking language barriers, one word at a time.**
+Grow your words. Grow yourself.
 
-## 📖 About the Project
+About the Project
 
-Language Bridge is an interactive language-learning platform designed to help users develop vocabulary and communication skills through practical exercises and real-life situations.
+Bloomly is an interactive language-learning platform designed to help users develop vocabulary, pronunciation, and communication skills through engaging activities and real-life situations.
 
-The goal is to make language learning more accessible, engaging, and useful in everyday life.
+Inspired by the idea that learning is a continuous journey of growth, Bloomly encourages users to develop their language abilities one step at a time.
 
 ## 🎯 Main Features
 
@@ -102,9 +102,9 @@ Open your browser and visit:
 
 http://127.0.0.1:5000
 
-## 🚧 Project Development
+Project Status
 
-Language Bridge is currently under development. The features described above represent the planned design and functionality of the platform. Additional features and improvements will be implemented as development progresses.
+Bloomly is currently under development. New features and improvements will be added as the platform evolves.
 
 ## 👩‍💻 Author
 
